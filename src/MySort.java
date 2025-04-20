@@ -36,7 +36,7 @@ public class MySort {
             return data;
         } else {
             int maxIndex = n;
-            for (int i = 0; i <= n - 1; i++) {
+            for (int i = 0; i <= n - 1; i++) { //맨뒤에는 그냥 놔두면 되니까 <= n-1
                 if (data[i] > data[maxIndex]) {
                     maxIndex = i;
                 }
